@@ -246,4 +246,12 @@ const PRESETS: { label: string; values: Partial<AccountConfig> }[] = [
     label: 'TopStep $50k',
     values: { accountBalance: 50000, dailyDrawdownPct: 2, maxDrawdownPct: 3, profitTargetPct: 6, consistencyRulePct: 50 },
   },
+  {
+    label: 'WeMasterTrade 10K',
+    values: { accountBalance: 10000, dailyDrawdownPct: 5, maxDrawdownPct: 10, profitTargetPct: 10, consistencyRulePct: 20 },
+  },
+  {
+    label: 'WeMasterTrade 100K',
+    values: { accountBalance: 100000, dailyDrawdownPct: 5, maxDrawdownPct: 10, profitTargetPct: 10, consistencyRulePct: 20 },
+  },
 ];
